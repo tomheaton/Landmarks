@@ -68,7 +68,7 @@
 		986999FD2869B1B7002CB529 /* TurtleRockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleRockApp.swift; sourceTree = "<group>"; };
 		986999FE2869B1B7002CB529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		986999FF2869B1B7002CB529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		98699A042869B1B7002CB529 /* TurtleRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98699A042869B1B7002CB529 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98699A0A2869B1B7002CB529 /* TurtleRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98699A0C2869B1B7002CB529 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		98699A112869B1B7002CB529 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,7 +151,7 @@
 		98699A052869B1B7002CB529 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98699A042869B1B7002CB529 /* TurtleRock.app */,
+				98699A042869B1B7002CB529 /* Landmarks.app */,
 				98699A0A2869B1B7002CB529 /* TurtleRock.app */,
 				98699A112869B1B7002CB529 /* Tests iOS.xctest */,
 				98699A1D2869B1B7002CB529 /* Tests macOS.xctest */,
@@ -262,7 +262,7 @@
 			);
 			name = "TurtleRock (iOS)";
 			productName = "TurtleRock (iOS)";
-			productReference = 98699A042869B1B7002CB529 /* TurtleRock.app */;
+			productReference = 98699A042869B1B7002CB529 /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
 		98699A092869B1B7002CB529 /* TurtleRock (macOS) */ = {
@@ -344,7 +344,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 986999FB2869B1B7002CB529 /* Build configuration list for PBXProject "TurtleRock" */;
+			buildConfigurationList = 986999FB2869B1B7002CB529 /* Build configuration list for PBXProject "Landmarks" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -608,8 +608,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.TurtleRock;
-				PRODUCT_NAME = TurtleRock;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.Landmarks;
+				PRODUCT_NAME = Landmarks;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -637,8 +637,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.TurtleRock;
-				PRODUCT_NAME = TurtleRock;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.Landmarks;
+				PRODUCT_NAME = Landmarks;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -658,6 +658,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,7 +666,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.TurtleRock;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.Landmarks;
 				PRODUCT_NAME = TurtleRock;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -684,6 +685,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -691,7 +693,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.TurtleRock;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tomheaton.Landmarks;
 				PRODUCT_NAME = TurtleRock;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -777,7 +779,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		986999FB2869B1B7002CB529 /* Build configuration list for PBXProject "TurtleRock" */ = {
+		986999FB2869B1B7002CB529 /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98699A2B2869B1B7002CB529 /* Debug */,
