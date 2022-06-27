@@ -17,6 +17,10 @@
 		98699A282869B1B7002CB529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986999FE2869B1B7002CB529 /* ContentView.swift */; };
 		98699A292869B1B7002CB529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986999FF2869B1B7002CB529 /* Assets.xcassets */; };
 		98699A2A2869B1B7002CB529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986999FF2869B1B7002CB529 /* Assets.xcassets */; };
+		98699A3A2869B7C9002CB529 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98699A392869B7C9002CB529 /* CircleImage.swift */; };
+		98699A3B2869B7CA002CB529 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98699A392869B7C9002CB529 /* CircleImage.swift */; };
+		98699A3D2869B882002CB529 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98699A3C2869B882002CB529 /* MapView.swift */; };
+		98699A3E2869B882002CB529 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98699A3C2869B882002CB529 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		98699A1D2869B1B7002CB529 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98699A212869B1B7002CB529 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		98699A232869B1B7002CB529 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		98699A392869B7C9002CB529 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		98699A3C2869B882002CB529 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				986999FD2869B1B7002CB529 /* TurtleRockApp.swift */,
 				986999FE2869B1B7002CB529 /* ContentView.swift */,
+				98699A392869B7C9002CB529 /* CircleImage.swift */,
+				98699A3C2869B882002CB529 /* MapView.swift */,
 				986999FF2869B1B7002CB529 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,7 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98699A272869B1B7002CB529 /* ContentView.swift in Sources */,
+				98699A3D2869B882002CB529 /* MapView.swift in Sources */,
 				98699A252869B1B7002CB529 /* TurtleRockApp.swift in Sources */,
+				98699A3A2869B7C9002CB529 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98699A282869B1B7002CB529 /* ContentView.swift in Sources */,
+				98699A3E2869B882002CB529 /* MapView.swift in Sources */,
 				98699A262869B1B7002CB529 /* TurtleRockApp.swift in Sources */,
+				98699A3B2869B7CA002CB529 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
